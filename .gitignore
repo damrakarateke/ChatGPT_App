@@ -1,0 +1,15 @@
+@'
+# Android
+.gradle
+/local.properties
+/.idea
+/build
+/app/build
+/captures
+.externalNativeBuild
+*.iml
+
+# Node (für deinen Proxy)
+server/node_modules
+server/.env
+'@ | Out-File -Encoding utf8 .gitignore
